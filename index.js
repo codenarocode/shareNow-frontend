@@ -15,7 +15,7 @@ const emailForm = document.querySelector("#emailForm");
 
 const toast = document.querySelector(".toast");
 
-const baseURL = "http://localhost:4000";
+const baseURL = "https://sharenow-app.herokuapp.com";
 const uploadURL = `${baseURL}/api/file/upload`;
 const emailURL = `${baseURL}/api/file/send`;
 
